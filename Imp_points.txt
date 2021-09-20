@@ -1,0 +1,29 @@
+__dirname = path to current dir
+__filename = file name
+module
+require
+
+Every file in a NODE is a module
+
+using module which we have exported [names]
+
+./ -> imp when we have to create our own module 
+
+exports: {} -> its an object
+
+Built-in MODULES
+    - OS
+    - PATH
+    - FS
+    - HTTP
+
+Async function works on callBACK;
+callback ? we run callback funtion when we are done
+
+FS -> file system
+    --readFileSync && writeFileSync
+    * if Syncing takes to much time our application will be down 
+        hence its better to use Async rather than Sync
+
+    --readFile && writeFile 
+    * this is async [prefable]  
