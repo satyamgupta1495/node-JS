@@ -1,3 +1,5 @@
+Javascript is Synchronous and Single threaded language
+
 __dirname = path to current dir
 __filename = file name
 module
@@ -27,3 +29,12 @@ FS -> file system
 
     --readFile && writeFile 
     * this is async [prefable]  
+
+-> Node package size will increase alot once you build a large project
+    - use .gitignore file [/file-name]
+
+-> install nodemon as Dev-Dependency
+    -i.e npm install i nodemon -D OR --save-Dev
+    
+Q-> What does single threaded mean?
+    -the execution of an entire task from beginning to end without interruption.
